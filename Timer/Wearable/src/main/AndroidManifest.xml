@@ -18,6 +18,7 @@
         package="com.example.android.wearable.timer" >
 
     <uses-sdk android:minSdkVersion="20" android:targetSdkVersion="20" />
+    <uses-feature android:name="android.hardware.type.watch" />
 
     <application
             android:icon="@mipmap/ic_launcher"

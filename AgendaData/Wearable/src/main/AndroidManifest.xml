@@ -3,6 +3,7 @@
         package="com.example.android.wearable.agendadata" >
 
     <uses-sdk android:minSdkVersion="20" android:targetSdkVersion="20" />
+    <uses-feature android:name="android.hardware.type.watch" />
 
     <application
             android:icon="@drawable/ic_launcher"

@@ -3,6 +3,7 @@
     package="com.example.android.wearable.elizachat" >
 
     <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="19"/>
+    <uses-feature android:name="android.hardware.type.watch" />
 
     <application
         android:allowBackup="true"
